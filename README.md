@@ -1,47 +1,79 @@
-# 🚀 BannerForge: AI-Powered Banner Generator - (Capstone project)
+# 🎨 BannerForge
 
-**Craft stunning banners effortlessly** with this lightweight, customizable tool. Perfect for social media or personal projects.
+**BannerForge** is a simple and clean banner generator that lets you create customizable banners directly in the browser. You can tweak colors, font sizes, text alignment, border styles, and download your banner as an image.
 
----
+## 🚀 Live Demo
 
-## 🌟 Features
+> [Try it Live](https://banner-capstone-project-bentil.netlify.app/)
 
-### 🎨 Smart Customization
+## 🖼️ Features
 
-- **AI Color Wizard**: Automatically generates harmonious background/foreground combinations
-- **Real-Time WYSIWYG Editor**: See changes instantly as you design
-- **Complete Control**: Adjust text, colors, fonts, shadows, and spacing
+- Edit banner text directly on screen.
+- Customize:
+  - Background color
+  - Font color
+  - Border color and width
+  - Font size
+  - Text shadow (X, Y, blur, color)
+  - Text alignment (9-way grid)
+  - Background image
+  - Banner height ratio
+- One-click:
+  - Download banner as PNG
+  - Generate random styles ✨
 
-### ⚡ Efficiency Boost
+## 📷 Screenshot
 
-- **One-Click Randomizer**: Instantly refresh designs with "Randomize" button
-- **Preset Templates**: Start with professionally designed layouts
-- **Export Options**: Save as PNG or JPEG
+![BannerForge Screenshot](screenshot/banner-page-preview1.png)
+![BannerForge Screenshot](screenshot/banner-page-preview2.png)
 
-### 🌐 Universal Access
+## 🛠️ Tech Stack
 
-- Mobile-friendly responsive design
-- 100% client-side processing
-- <1s load time
+- HTML5
+- CSS3 (Custom Properties/Variables)
+- JavaScript (Vanilla)
+- html2canvas
+- Vanilla Picker
+- Google Fonts (Poppins)
 
----
+## 📁 Project Structure
 
-## 🛠️ Getting Started
+```
+BannerForge/
+│
+├── index.html        # Main HTML layout
+├── index.css         # Banner styling and layout controls
+├── index.js          # Interactivity, downloads, randomizer, color pickers
+├── favicon.ico
+├── icons/            # GitHub SVG icon
+├── screenshot.png    # preview image
+```
 
-### Prerequisites
+## 📦 Setup & Usage
 
-- Modern browser (Chrome/Firefox/Edge)
-- Internet connection (for initial load)
-
-### Installation
+### Clone the Repository
 
 ```bash
-# Clone repository
 git clone https://github.com/addobentil/BannerForge.git
-
-# Install dependencies
-npm install
-
-# Start local server
-npm run dev
+cd BannerForge
 ```
+
+### Open in Browser
+
+Just open `index.html` in your favorite browser.
+
+Or deploy using GitHub Pages:
+
+1. Go to your repo settings.
+2. Scroll down to **Pages**.
+3. Set source as `main` branch (or whichever one you’re using).
+4. Hit Save and your live link will be available!
+
+## ✨ Future Improvements
+
+- Add banner templates
+- Save/load banner settings
+- Export to SVG
+- Social media banner presets (Twitter, LinkedIn, etc.)
+- Add drag-to-position text functionality
+- Add support for different fonts and styles

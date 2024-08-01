@@ -4,8 +4,8 @@ const fg = document.getElementById("fg");
 const bbg = document.getElementById("bbg");
 const heading = document.getElementById("heading");
 const borderw = document.getElementById("borderw");
-const tsc = document.getElementById("tsc");
 const root = document.querySelector(":root");
+const tsc = document.getElementById("tsc");
 let picker1 = new Picker({
   parent: bg,
   color: getComputedStyle(document.documentElement).getPropertyValue(

@@ -1,6 +1,6 @@
 # 🚀 BannerForge: AI-Powered Banner Generator - (Capstone project)
 
-**Craft stunning banners effortlessly** with this lightweight, customizable tool. Perfect for social media, ads, or personal projects.
+**Craft stunning banners effortlessly** with this lightweight, customizable tool. Perfect for social media or personal projects.
 
 ---
 

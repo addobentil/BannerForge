@@ -1,0 +1,16 @@
+{
+  "name": "BannerForge",
+  "version": "1.0.0",
+  "description": "**Craft stunning banners effortlessly** with this lightweight, customizable tool. Perfect for social media, ads, or personal projects.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
